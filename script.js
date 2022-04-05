@@ -59,7 +59,7 @@ function Makediv(){
 }
 function img(){
     
-    var hourr = new Date().getSeconds();
+    var hourr = new Date().getHours();
 
     if(hourr%2==0||hourr%5==0){
 
@@ -74,7 +74,7 @@ function img(){
         document.getElementById("textcontainer2").innerHTML="Good Afternoon !!";
     }
 
-    if(hourr%11==0||hourr%7==0||hourr%13==0||hourr%17==0||hourr%19==0){
+    if(hourr%2!=0||hourr%3!=0){
         document.getElementById("imgcontainer").style.backgroundImage="url(./night.PNG)"
         document.getElementById("textcontainer1").innerHTML="Good Night !!";
         document.getElementById("textcontainer2").innerHTML="Good Night !!";
