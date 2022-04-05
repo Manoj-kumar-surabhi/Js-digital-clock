@@ -59,7 +59,7 @@ function Makediv(){
 }
 function img(){
     
-    var hourr = new Date().getMinutes();
+    var hourr = new Date().getSeconds();
 
     if(hourr%2==0||hourr%5==0){
 
