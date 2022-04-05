@@ -74,7 +74,7 @@ function img(){
         document.getElementById("textcontainer2").innerHTML="Good Afternoon !!";
     }
 
-    if(hourr%2!=0||hourr%3!=0){
+    if(hourr%2!=0&&hourr%3!=0){
         document.getElementById("imgcontainer").style.backgroundImage="url(./night.PNG)"
         document.getElementById("textcontainer1").innerHTML="Good Night !!";
         document.getElementById("textcontainer2").innerHTML="Good Night !!";
